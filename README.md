@@ -1,3 +1,3 @@
 # Javascript
 ### Js for practice only
-###### Code with Harry
+###### Add some JS files
