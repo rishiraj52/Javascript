@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaction using alert , confirm and prompt </title>
+</head>
+
+<body>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsa beatae eveniet dignissimos ad repellat, at
+    ratione vero cumque repellendus natus dolorem, atque cum nostrum animi vitae qui quae quam soluta blanditiis
+    voluptas recusandae magnam est quisquam. Sequi iusto repellendus rem error, architecto eos qui blanditiis suscipit
+    quidem, neque similique perferendis officiis!
+
+    <script>
+        // ALERT in in-browser javascript  - does not return anything
+        // alert("This is a message");
+
+        // prompt
+        // let name = prompt("Enter name: ", "Guest");
+        // console.log(name);
+
+        //  confirm in js
+
+        //  let deletepost=confirm("Do you reallly want to delete this post?");
+        //  // console.log(deletepost);
+        //  if(deletepost){
+        //      console.log("Post deleted successfully");
+        //  }
+        //  else{
+        //      console.log("Denied");
+        //  }
+
+        alert("Give details to have access");
+        let name=prompt("Enter name:", "Name");
+        let age= prompt("Enter your age:", "Age");
+        let confirmage=confirm("Your entered age is "+ age);
+
+        if(age<18){
+            alert("Access denied to "+name+"!");
+        }
+        else if(age>65){
+            alert("Access denied! senior citizens not allowed!");
+        }
+        else{
+            alert("Welcome! "+name);
+        }
+
+    </script>
+</body>
+
+</html>
