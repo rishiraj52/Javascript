@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrays and objects</title>
+</head>
+
+<body>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est illo ducimus labore explicabo, repellendus doloremque
+    dolorem magni ea in voluptatem alias veritatis, at earum et vero itaque perferendis quas beatae odio libero nulla
+    quis qui? Dolorem cumque quidem, corrupti magnam quia deleniti vel odit vero earum totam harum nemo magni
+    exercitationem. Reiciendis!
+
+    <script>
+        let myvar1=52;
+        let myvar2="rishi";
+        let myvar3=true;
+        let myvar4=null;
+        let myvar5=undefined;
+
+    // object
+    let car = {
+        Company: "MG",
+        Name: "Hector",
+        Color: "Red",
+        Price: "30 Lakh",
+        ManufacturingYear: 2021,
+        Type: "Petrol",
+    }
+    console.log(car);
+    // type in console of the web to access this
+    car.Color;
+    car['Company'];
+    
+    // Arrays
+    let bike=["Harley Davidson", "Street Rod 350 Thunder", "Matellic Dark Grey", "10 Lakh", 2020, "Petrol"]
+    console.log(bike);
+    console.log(bike.length);
+    bike= bike.sort();
+    console.log(bike);
+    bike= bike.push("Cruiser");
+    console.log(bike);
+
+    // Array can be defined as object by 'new' in starting
+    let motor=new Array("Harley Davidson", "Street Rod 350 Thunder", "Matellic Dark Grey", "10 Lakh", 2020, "Petrol")
+    console.log(motor);
+
+    </script>
+</body>
+
+</html>
