@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="RPS.js" defer>
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h2>AD_Games</h2>
+        <ul>
+            <li><a href=".about">About</a></li>
+            <li><a href=".rules">Rules</a></li>
+        </ul>
+    </div>
+    <div class="name">
+        <h1>ROCK-PAPER-SCISSORS-LIZARD-SPOCK</h1>
+    </div> 
+    <div class="container">
+        <div class="flip-about">
+            <div class="about-inner">
+                <div class="about-front">
+                    <h2>About the game</h2>
+                </div>
+                <div class="about-back">
+                    <p>The game is an expansion on the game Rock, Paper, Scissors.
+                    Its a game that has been created in the show : "Big Bang Theory"</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-rules">
+            <div class="rules-inner">
+                <div class="rules-front">
+                    <h2>Rules</h2>
+                </div>
+                <div class="rules-back">
+                    <ul>
+                    <li>Scissors cuts Paper</li>
+                    <li>Paper covers Rock</li>
+                    <li>Rock crushes Lizard</li>
+                    <li>Lizard poisons Spock</li>
+                    <li>Spock smashes Scissors</li>
+                    <li>Scissors decapitates Lizard</li>
+                    <li>Lizard eats Paper</li>
+                    <li>Paper disproves Spock</li>
+                    <li>Spock vaporizes Rock</li>
+                    <li>Rock crushes Scissors</li>
+                    </ul>
+                    <h4>You must get 5 points to win the match!!</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="ready">
+        <h2>If you are ready!! Lets play</h2>
+        <button class="readybutton">START</button>
+    </div>
+    <div id="fullgame">
+    <div class="game">
+        <div class="player">
+        <img src="user.png">
+        <p id="playerpoint"></p>
+        </div>
+        <div class="computer">
+        <img src="monitor.png">
+        <p id="comppoint"></p>
+        </div>
+    </div>
+
+    <div class="option">
+        <!--<p id="current"></p>-->
+        <h2>Select your option:</h2>
+        <div class="options_button">
+            <button id='Rock' class="button">ROCK</button>
+            <button id='Paper' class="button">PAPER</button>
+            <button id='Scissor' class="button">SCISSORS</button>
+            <button id='Lizard'class="button">LIZARD</button>
+            <button id='Spock' class="button">SPOCK</button>
+        </div>
+    </div>
+    <div class="result">
+    </div>
+    </div>
+    <div class="footer">
+        Made by Alekya dandu
+    </div>
+</body>
+</html>

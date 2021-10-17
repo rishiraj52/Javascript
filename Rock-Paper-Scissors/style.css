@@ -1,0 +1,194 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    height: 52px;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    color:whitesmoke;
+
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    list-style-type: none;
+    padding-right:10px;
+}
+.header a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+.header h2{
+    padding:10px;
+    margin: 0;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:350px;
+    background: url(pexels-anni-roenkae-3109816.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+
+.name h1{
+    padding:20px;
+    text-align: center;
+    color:whitesmoke;
+    background:black;
+    border: solid 2px whitesmoke;
+}
+.container{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap:20px;
+}
+  .flip-about, .flip-rules {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .about-inner, .rules-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  }
+  
+  .flip-about:hover .about-inner, .flip-rules:hover .rules-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .about-front, .about-back , .rules-front, .rules-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .about-front, .rules-front{
+      background-color:#c74686;
+      color:black;
+  }
+  
+  .about-back, .rules-back {
+    background-color:rgb(224, 140, 182);
+    color: whitesmoke;
+    transform: rotateY(180deg);
+  }
+
+.container ul{
+    list-style-type: none;
+    margin:0;
+    padding:40px 0 0 0;
+}
+
+.container h2{
+    padding-top:100px;
+}
+
+.container p{
+    padding-top: 80px ;
+}
+.ready {
+    color: whitesmoke;
+    background-color: #c74686;
+    text-align: center;
+    padding: 20px;
+}
+#fullgame{
+    display: none;
+}
+
+button{
+    color: black;
+    background-color: whitesmoke;
+    border: solid 2px black;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+button:hover{
+    background-color: #812d57c7;
+}
+
+.game{
+    display: flex;
+    gap:100px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: #c74686;
+}
+.game img{
+    height: 200px;
+    width: 200px;
+    filter: invert(1);
+}
+
+.option{
+    display: flex;
+    background-color: #812d57;
+    flex-direction: column;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    gap:10px;
+}
+
+
+.result p{
+    padding: 10px;
+    border: 5px solid #812d57;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 40px;
+}
+
+.footer{
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background: black;
+    color: whitesmoke;
+    font-size: 15px;
+}
