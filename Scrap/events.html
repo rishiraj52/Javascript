@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events</title>
+
+    <style>
+        #btn{
+            color: rgb(14, 212, 212);
+            background: rgb(66, 65, 65);
+            padding: 7px;
+            border-radius: 5px;
+            border-width: 2px;
+            border-color: black;
+        }
+
+        #btn:hover{
+            color: rgb(15, 236, 236);
+            background-color: rgb(46, 45, 45);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Browser event:
+    Click
+    Context menu
+    mouseover/mouseout
+    mousedown/mouseup 
+
+    submit
+    focus -->
+
+    <div class="container">
+        <h1>This is heading</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, a eum nulla neque repudiandae quas, veniam
+            voluptates culpa natus omnis eligendi beatae accusamus tenetur ab suscipit illo necessitatibus in dolore
+            quos soluta laborum consequatur? Totam modi aspernatur magnam officiis quia facere, ea porro saepe ratione
+            rerum nihil nostrum, obcaecati tenetur rem hic a adipisci optio? Ea, itaque, possimus excepturi magni
+            voluptate deleniti officiis officia maxime delectus quasi tempore rerum repellat ab nisi, amet harum alias
+            deserunt reiciendis consectetur! Velit deleniti mollitia excepturi, facere nulla voluptatibus autem sunt
+            dolorum assumenda tempora alias minima dolor ea! Corporis corrupti soluta incidunt at deserunt sed amet
+            itaque id, ea hic, optio exercitationem voluptates! Quibusdam, quas ratione ea saepe a aliquid molestiae
+            doloremque accusamus, ad voluptatibus magni ex fugiat dignissimos veniam atque reiciendis rem eos, fugit
+            dolores aspernatur nobis nesciunt error? Cum, praesentium. Sunt laudantium soluta perspiciatis, quis debitis
+            aspernatur laborum numquam praesentium cumque quidem ut repudiandae cupiditate accusamus rerum, eius aut!
+            Voluptate accusamus molestiae incidunt tempora maxime officia? Cum quibusdam earum a, nostrum voluptatem
+            doloribus, modi quis consectetur molestiae commodi reprehenderit iure libero exercitationem culpa tempora
+            unde, accusamus eius ipsam doloremque nobis maxime ducimus! Corrupti quod eveniet minus dolorem, repellendus
+            libero culpa odio. Eveniet, quisquam adipisci! Dignissimos ducimus placeat pariatur odit voluptate quaerat,
+            illum cumque nemo delectus eum doloribus iste mollitia corporis fugit et blanditiis ut nesciunt, corrupti
+            obcaecati, atque nam recusandae aliquid commodi saepe? Sit recusandae exercitationem ab blanditiis quam,
+            voluptatibus suscipit, minus ex deleniti ullam laborum dicta nam delectus tempore nulla nesciunt praesentium
+            mollitia. Maxime veniam illum quae.</p>
+
+            <button id="btn" onclick="togglehide()">Show/Hide</button>
+    </div>
+
+    <script>
+        function togglehide(){
+            btn = document.getElementById(`btn`);
+            para = document.getElementById(`para`);
+            if(para.style.display != 'none'){
+                para.style.display= 'none';
+            }
+            else{
+                para.style.display= 'block';
+            }
+        }
+    </script>
+
+</body>
+
+</html>
