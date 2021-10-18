@@ -9,13 +9,13 @@
 
 <div align="center">
 
-![GitHub forks](https://img.shields.io/github/forks/abheer18/HACKTOBERFEST-2021-WEB-DEV?style=plastic-square)
-![GitHub stars](https://img.shields.io/github/stars/abheer18/HACKTOBERFEST-2021-WEB-DEV?style=plastic-square)
-![GitHub issues](https://img.shields.io/github/issues/abheer18/HACKTOBERFEST-2021-WEB-DEV?style=plastic-square)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/abheer18/HACKTOBERFEST-2021-WEB-DEV?style=plastic-square)
-![GitHub contributors](https://img.shields.io/github/contributors/abheer18/HACKTOBERFEST-2021-WEB-DEV?style=plastic-square)
+![GitHub forks](https://img.shields.io/github/forks/rishiraj52/Javascript?style=plastic-square)
+![GitHub stars](https://img.shields.io/github/stars/rishiraj52/Javascript?style=plastic-square)
+![GitHub issues](https://img.shields.io/github/issues/rishiraj52/Javascript?style=plastic-square)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/rishiraj52/Javascript?style=plastic-square)
+![GitHub contributors](https://img.shields.io/github/contributors/rishiraj52/Javascript?style=plastic-square)
 
-This is repository of Responsive Portfolio for Hacktoberfest 2021. Participate in Hacktoberfest by contributing to any Open Source project on GitHub! Here is a starter project for first-time contributors.
+Participate in Hacktoberfest by contributing to any Open Source project on GitHub! Here is a starter project for first-time contributors.
 <br>
 [Visit website](https://hacktoberfest.digitalocean.com/)
 
