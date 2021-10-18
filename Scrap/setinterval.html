@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetInterval & SetTimeOut</title>
+</head>
+
+<body>
+    <div class="container">
+        This is a container
+        <span id="time">Time</span>
+    </div>
+
+    <script>
+        console.log("SetInterval & SetTimeOut");
+        // setTimeout --> Allows us to run the funtion once after the interval of time
+        // clearTimeout -->  Allows us to run the funtion repeatedly after the interval of time
+
+        function greet(name, byetext) {
+            console.log("Hello, good morning " + name + " " + byetext);
+        }
+
+        // Timeout = setTimeout( greet, 5000, "Rishi", ",Take care!");
+        // console.log(Timeout);
+
+        // clearTimeout(Timeout);
+
+        // IntervalId = setInterval(greet, 1000, "Rishiraj", "Take care!");
+        // clearInterval(IntervalId);
+
+        function displaytime() {
+            time = new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML = time;
+        }
+
+        // setInterval(displaytime, 1000);
+
+
+    </script>
+</body>
+
+</html>
