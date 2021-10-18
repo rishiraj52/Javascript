@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOPS IN JS</title>
+</head>
+
+<body>
+    <dic class="container">
+        <div class="row">
+            <h1>Heading</h1>
+            <h4>
+                <p>
+                    This is a row in container.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus illo repellat tempore
+                    numquam
+                    earum, mollitia enim sapiente rerum nisi quas? Rerum facilis illum, officia provident veniam tempore
+                    necessitatibus molestias quam. Quam voluptate molestias debitis inventore, dignissimos esse quasi
+                    sed
+                    nam cumque beatae voluptas, ea aliquam officia accusantium excepturi, quidem aperiam voluptates.
+                </p>
+            </h4>
+        </div>
+    </dic>
+
+    <script>
+        console.log('loops');
+        for (let i = 0; i < 5; i++) {
+            console.log(i);
+
+        }
+
+        // 1.
+        let name = ["ROHAN", "YUG", "AASHIYAN", "ARNAV", "RISHIRAJ"];
+        for (let j = 0; j < name.length; j++) {
+            console.log(name[j]);
+        }
+
+        // 2.
+        name.forEach(function f(element) {
+            console.log("hello " + element);
+        });
+
+        // 3.
+        for (element of name) {
+            console.log("Hello friends " + element);
+        }
+
+        let customer = {
+            Name: "Rishi",
+            Item: "Laptop",
+            Year: "2021",
+            Prie: "55k"
+        }
+
+        // for accessing objects
+        for (key in customer) {
+            console.log(`The ${key} of customer is ${customer[key]}`);
+        }
+
+        // while loop
+        let r = 0;
+        while (r < 5) {
+            console.log(`${r} is less than 5`);
+            r++;
+        }
+
+        // do while loop
+        let s = 0;
+        do {
+            console.log(`print ${s}`);
+            s++;
+        } while (s < 5);
+
+
+
+    </script>
+</body>
+
+</html>
