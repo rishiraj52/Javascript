@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time</title>
+</head>
+<body>
+    <div class="container">
+        This is heading.
+    </div>
+
+    <script>
+        console.log("Date and Time Tuotorial");
+        // let dated= new Date();
+        // console.log(dated);
+
+        // let dated1= new Date(1000);
+        // console.log(dated1);
+
+        // let newdate= new Date(year, month, date, hours, minutes, seconds, milliseconds);
+        let newdate= new Date(2021, 4, 15, 9, 3, 2, 34);
+        console.log(newdate);
+
+        let yr= newdate.getFullYear();
+        console.log("year is" , yr);
+
+        let dt= newdate.getDate();
+        console.log("date is" , dt);
+
+        let month= newdate.getMonth();
+        console.log("month is" , month);
+
+        let hr= newdate.getHours();
+        console.log("hour is" , hr);
+
+        newdate.setDate(5);
+        console.log("new date is" , newdate);
+
+
+    </script>
+</body>
+</html>
