@@ -61,38 +61,43 @@ The steps to follow to contribute to any projects:
     git clone "url you just copied"
     ```
 
-4.  ### Add a upstream link to main branch in your cloned repo
+4. ### Change directory to `javascript`
+    ```
+    cd javascript
+    ```
+
+5.  ### Add a upstream link to main branch in your cloned repo
     ```
     git remote add upstream <original repository>
     ```
-5.  ### Keep your cloned repo upto date by pulling from upstream
+6.  ### Keep your cloned repo upto date by pulling from upstream
     This will also avoid any merge conflicts while committing new changes
     ```
     git pull upstream main
     ```
-6.  ### Create your feature branch
+7.  ### Create your feature branch
     Always create new branch
     ```
     git checkout -b <feature-name>
     ```
-7.  ### Track your changes
+8.  ### Track your changes
     ```
     git add .
     ```
-8.  ### Check for your changes.
+9.  ### Check for your changes.
     ```
     git status
     ```
-9.  ### Commit all the changes
+10. ### Commit all the changes
     Write commit message as "Small Message"
     ```
     git commit -m "Write a meaningfull but small commit message"
     ```
-10. ### Push the changes for review
+11. ### Push the changes for review
     ```
     git push origin <branch-name>
     ```
-11. ### Create a PR on Github.
+12. ### Create a PR on Github.
         Just hit the create a pull request button, you must write a PR message to clarify why and what are you contributing
     <hr>
 
